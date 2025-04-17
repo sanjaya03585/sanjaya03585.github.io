@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+.flex-container {
+    display: flex;
+    gap: 1em;
+}
+.flex-item {
+    text-decoration: none;
+    color: white;
+}
+.button-47 {
+    background-color: #4CAF50;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+.button-47:hover {
+    background-color: #45a049;
+}
+.banner {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: #e0f7fa;
+}
+.cta-button {
+    background-color: #00796b;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    border-radius: 25px;
+}
+.featured, .shop-section, .about-section, .contact {
+    padding: 2em;
+    background-color: white;
+}
+.product-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #fafafa;
+    text-align: center;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.contact-info {
+    margin-top: 1em;
+}
+.flex-container-footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
