@@ -4,7 +4,7 @@ function submitForm() {
     const message = document.getElementById("message").value;
 
     if (!name || !email || !message) {
-        alert("Please fill out all fields.");
+        alert("Please fill all the fields");
     } else {
         alert("Message sent! We'll get back to you at " + email);
     }
