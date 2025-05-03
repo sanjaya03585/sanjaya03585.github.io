@@ -1,76 +1,105 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+/* Global Styles */
+body { 
+    font-family: 'Roboto', sans-serif; /* Sets the default font */
+    margin: 0; /* Removes default browser margin */
+    background-color: #f4f4f4; /* Light background for the page */
 }
+
+/* Header Section */
 header {
-    background-color: #181817;
-    color: white;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #181817; /* Dark background for header */
+    color: white; /* White text in header */
+    padding: 1em; /* Padding inside header */
+    display: flex; /* Flexbox layout for aligning logo and nav */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Vertically center items */
 }
+
+/* Logo Style */
 .logo {
-    font-family: 'Merriweather', serif;
-    font-size: 1.5em;
+    font-family: 'Merriweather', serif; /* Serif font for logo */
+    font-size: 1.5em; /* Slightly larger logo text */
 }
+
+/* Navigation Menu Container */
 .flex-container {
-    display: flex;
-    gap: 1em;
+    display: flex; /* Horizontal layout */
+    gap: 1em; /* Space between nav items */
 }
+
+/* Navigation Links */
 .flex-item {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White colored links */
 }
+
+/* Styled Button Links */
 .button-47 {
-    background-color: #4CAF50;
-    padding: 0.5em 1em;
-    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    padding: 0.5em 1em; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
 }
+
+/* Hover effect for navigation buttons */
 .button-47:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Darker green on hover */
 }
+
+/* Banner Section */
 .banner {
-    text-align: center;
-    padding: 4em 1em;
-    background-color: #e0f7fa;
+    text-align: center; /* Centered text */
+    padding: 4em 1em; /* Vertical and horizontal padding */
+    background-color: #e0f7fa; /* Light blue background */
 }
+
+/* Call-To-Action Button */
 .cta-button {
-    background-color: #00796b;
-    color: white;
-    padding: 1em 2em;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 1em;
-    border-radius: 25px;
+    background-color: #00796b; /* Teal background */
+    color: white; /* White text */
+    padding: 1em 2em; /* Large padding */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Keeps button shape */
+    margin-top: 1em; /* Space above button */
+    border-radius: 25px; /* Fully rounded corners */
 }
+
+/* Section Styling (Featured, Shop, About, Contact) */
 .featured, .shop-section, .about-section, .contact {
-    padding: 2em;
-    background-color: white;
+    padding: 2em; /* Padding inside sections */
+    background-color: white; /* White background */
 }
+
+/* Product Grid Layout */
 .product-grid {
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
+    display: flex; /* Flex layout for products */
+    gap: 2em; /* Space between products */
+    flex-wrap: wrap; /* Wrap to next row on smaller screens */
 }
+
+/* Individual Product Card */
 .product {
-    border: 1px solid #ccc;
-    padding: 1em;
-    background-color: #fafafa;
-    text-align: center;
+    border: 1px solid #ccc; /* Light border */
+    padding: 1em; /* Padding inside product card */
+    background-color: #fafafa; /* Light background for product */
+    text-align: center; /* Centered content */
 }
+
+/* Contact Form Layout */
 .contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+    display: flex; /* Flex layout */
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 1em; /* Space between form fields */
 }
+
+/* Additional Contact Info Styling */
 .contact-info {
-    margin-top: 1em;
+    margin-top: 1em; /* Space above contact info */
 }
+
+/* Footer Section */
 .flex-container-footer {
-    background-color: #2d3e50;
-    color: white;
-    text-align: center;
-    padding: 1em;
+    background-color: #2d3e50; /* Dark blue-gray background */
+    color: white; /* White text */
+    text-align: center; /* Centered footer content */
+    padding: 1em; /* Padding inside footer */
 }
